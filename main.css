@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Georgia, Times, "Times New Roman", serif;
-    color: #2d2d2d;
+    color: #202020;
     line-height: 1.4;
-    background: #fffcfc;
+    background: #ffffff;
 }
 
 .container {
     margin: 0 auto;
-    width: 55%;
+    width: 50%;
 }
 
 h1, h2 {
@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin: 0;
 }
 
@@ -25,34 +25,29 @@ a {
 }
 
 header {
-    padding: .8em 0 .5em 0;
+    padding: 4em 0 2em 0;
+    text-transform: lowercase;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
-nav div#info-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav div#info-bar a#resume {
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    color: #2d2d2d;
+nav a {
+    font-size: 1.4rem;
+    color: #4c4c4c;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.4s ease;
+    padding: .5em 2em 0 0;
 }
 
-nav div#info-bar a#resume:hover {
+nav a:hover {
     color: #1d68e0;
 }
 
-nav div#info-bar img {
+div#icons img {
     width: 2rem;
     margin: .18em 0 0 .4em;
 }
@@ -68,19 +63,9 @@ main a {
 
     h1 {
         width: 100%;
-        text-align: center;
     }
 
-    nav {
-        display: block;
-    }
-
-    nav div#info-bar {
-        justify-content: space-evenly;
-    }
-
-    nav div#info-bar img {
-        width: 2rem;
-        margin: .18em 0 0 .6em;
+    nav a {
+        padding: .5em 1em 0 0;
     }
 }
