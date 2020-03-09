@@ -25,7 +25,7 @@ a {
 }
 
 header {
-    padding: 4em 0 2em 0;
+    padding: 8em 0 3em 0;
     text-transform: lowercase;
 }
 
@@ -47,18 +47,17 @@ nav a:hover {
     color: #1d68e0;
 }
 
-div#icons img {
-    width: 2rem;
-    margin: .18em 0 0 .4em;
-}
-
 main a {
     color: #1d68e0;
 }
 
+main p {
+    margin: 1.2em 0;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
-        width: 93%;
+        width: 90%;
     }
 
     h1 {
